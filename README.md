@@ -281,4 +281,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-*Built for the Google AI Hackathon 2025 — leveraging Gemma on-device AI for last-mile healthcare delivery.*
+*Built for the Google AI Hackathon 2026 — leveraging Gemma on-device AI for last-mile healthcare delivery.*
