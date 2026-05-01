@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946020614652",
+    "project_id": "fieldagent-901d6",
+    "storage_bucket": "fieldagent-901d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946020614652:android:4c2699cd595e738b81f279",
+        "android_client_info": {
+          "package_name": "com.fieldagent.field_agent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-r1nzyC3A5d7rc63uw7Ez2wXduBBmmNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
