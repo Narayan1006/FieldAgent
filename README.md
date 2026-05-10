@@ -6,6 +6,25 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?logo=firebase)](https://firebase.google.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Download APK](https://img.shields.io/badge/Download-APK%20v1.0.0-brightgreen?logo=android)](https://github.com/Narayan1006/FieldAgent/releases/latest/download/app-release.apk)
+
+---
+
+## ⬇️ Download
+
+| Platform | Link | Size |
+|---|---|---|
+| **Android (arm64)** | [📦 app-release.apk](https://github.com/Narayan1006/FieldAgent/releases/latest/download/app-release.apk) | 234.6 MB |
+
+> **First-launch note:** On first run the app downloads the **Gemma 4 E4B model (3.65 GB)** over WiFi.  
+> After that it works **fully offline** — no internet needed for AI inference.
+
+### Install via ADB
+```bash
+adb install app-release.apk
+```
+
+---
 
 ---
 
