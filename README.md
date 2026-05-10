@@ -14,14 +14,23 @@
 
 | Platform | Link | Size |
 |---|---|---|
-| **Android (arm64)** | [📦 app-release.apk](https://github.com/Narayan1006/FieldAgent/releases/latest/download/app-release.apk) | 234.6 MB |
+| **Android (arm64)** | [📦 FieldAgent-v1.0.0-arm64.apk](apk/FieldAgent-v1.0.0-arm64.apk) | 234.6 MB |
 
 > **First-launch note:** On first run the app downloads the **Gemma 4 E4B model (3.65 GB)** over WiFi.  
 > After that it works **fully offline** — no internet needed for AI inference.
 
 ### Install via ADB
 ```bash
-adb install app-release.apk
+adb install FieldAgent-v1.0.0-arm64.apk
+```
+
+### Build yourself
+```bash
+git clone https://github.com/Narayan1006/FieldAgent.git
+cd FieldAgent
+flutter pub get
+flutter build apk --release --target-platform android-arm64
+# APK → build/app/outputs/flutter-apk/app-release.apk
 ```
 
 ---
