@@ -22,7 +22,7 @@ android {
 
     defaultConfig {
         applicationId = "com.fieldagent.field_agent"
-        minSdk = flutter.minSdkVersion  // Firebase requires minimum SDK 23
+        minSdk = flutter.minSdkVersion  // Firebase + flutter_gemma minimum
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -31,12 +31,10 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.getByName("debug")
-            isMinifyEnabled = true
-            isShrinkResources = true
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            // Minification disabled — R8 strips critical MediaPipe/Flutter/Gemma classes at runtime
+            // Re-enable only after thorough ProGuard tuning
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
 }
